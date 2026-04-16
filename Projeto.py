@@ -31,7 +31,7 @@ def connectDB():
 
 
 try:
-    GEMINI_API_KEY = "AIzaSyBLFLksyHUoc3Pvom9ySTW7wSHcXKNsBBM"
+    GEMINI_API_KEY = "DIGITE_AQUI_SUA_KEY"
     genai.configure(api_key=GEMINI_API_KEY)
     gemini_model = genai.GenerativeModel('gemini-2.5-flash')
     print("API do Gemini configurada com sucesso!")
